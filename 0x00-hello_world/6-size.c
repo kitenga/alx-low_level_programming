@@ -15,7 +15,7 @@ int main(void)
 	float f;		/* A floating-point variable */
 
 	/* Print thesize of each data type along with a description */
-	printf("Size of a char: %lu byts(s)\n", sizeof(a));
+	printf("Size of a char: %lu bytes(s)\n", sizeof(a));
 	printf("Size of an int: %lu bytes(s)\n", sizeof(b));
 	printf("Size of a long int: %lu byte(s)\n", sizeof(c));
 	printf("Size of a long long int: %lu byte(s)\n", sizeof(d));
