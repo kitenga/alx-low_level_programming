@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 /**
  *  main - This program will assign a random number to the variable n
@@ -17,7 +18,7 @@ int main(void)
 		{
 		printf("Last digit of %d is %d and is greater than 5\n", n, n % 10);
 		}
-	elseif((n % 10) < 6 && (n % 10) != 0)
+	else if ((n % 10) < 6 && (n % 10) != 0)
 		{
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, n % 10);
 		}
@@ -25,6 +26,6 @@ int main(void)
 		{
 		printf("Last digit of %d is %d and is 0\n", n, n % 10);
 		}
-	return (0);
 
+	return (0);
 }
